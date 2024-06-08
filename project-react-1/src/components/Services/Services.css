@@ -1,0 +1,35 @@
+.services {
+    width: 100%;
+    background-color: #405d78;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    width: 960px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .services_heading {
+    width: 950px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 50px 0;
+    display: flex;
+  }
+  
+  .services_options {
+    width: 100%;
+    width: 720px;
+    height: 451px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  
