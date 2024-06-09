@@ -1,4 +1,3 @@
-// import React from "react";
 import Expert from "../Expert/Expert";
 import experts from "../../data/experts";
 import "./Experts.css";

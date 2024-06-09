@@ -1,4 +1,3 @@
-// import React from "react";
 import ServiceBox from "../ServiceBox/ServiceBox";
 import services from "../../data/services";
 import "./Services.css";

@@ -1,4 +1,3 @@
-// import React from "react";
 import "./Expert.css";
 
 const Expert = ({ name, bio, image, gender }) => (

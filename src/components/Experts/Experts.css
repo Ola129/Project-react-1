@@ -20,7 +20,9 @@
   display: flex;
   flex-wrap: wrap;
 }
-
+.expert_section:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
 .middle_container {
   width: 100%;
 }

@@ -1,4 +1,3 @@
-// import React from "react";
 import './ServiceBox.css';
 
 const ServiceBox = ({ title, description, isNew }) => (
