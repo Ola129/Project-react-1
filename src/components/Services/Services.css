@@ -1,26 +1,30 @@
 .services {
-  width: 100%;
-  background-color: #405d78;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    width: 100%;
+    min-height: calc(100vh - 71px);
+    background-color: #405d78;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .services_heading {
-  width: 950px;
-  font-size: 36px;
-  font-weight: bold;
-  color: #ffffff;
-  padding: 50px 0;
-  display: flex;
+    width: 100%;
+    max-width: 950px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
 }
 
 .services_options {
-  width: 100%;
-  width: 720px;
-  height: 451px;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  padding-bottom: 50px;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
 }

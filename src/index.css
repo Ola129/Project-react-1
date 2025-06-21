@@ -1,5 +1,9 @@
-body {
+body, html {
+  width: 100%;
+  height: 100%;
   margin: 0;
+  padding: 0;
+  overflow-x: hidden;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -11,88 +15,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-@media screen and (min-width: 1024px) {
+
+@media (max-width: 1024px) {
   .container {
-    width: 960px;
-  }
-  .header {
     width: 100%;
-    height: calc(100vh - 50px);
-    background-image: url(images/background_img.jpg);
-    background-size: cover;
-    position: relative;
+    max-width: none;
+    padding: 0 10px;
   }
-  a:hover {
-    color: black;
-  }
-  .button:hover {
-    background-color: #ffffff;
-    color: black;
-  }
+
   .services_heading {
-    width: 950px;
+    width: 100%;
+    font-size: 28px;
+    text-align: center;
   }
+
   .services_options {
-    width: 720px;
-  }
-  .nav_right {
-    width: 50%;
+    width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: right;
+    flex-wrap: wrap;
+    justify-content: center;
   }
+
   .expert_section {
-    display: flex;
-    align-items: center;
-    padding-bottom: 28px;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    text-align: center;
   }
-  .expert_section:nth-of-type(even) {
-    flex-direction: row-reverse;
-  }
-  .expert_woman {
-    padding-right: 50px;
-    text-align: right;
-  }
-  .expert_man {
-    padding-left: 50px;
-    text-align: left;
-  }
+
   .experts_photo {
-    border-radius: 50%;
-    width: 197px;
-    height: 197px;
-    border: 1px solid black;
-    display: flex;
-    object-fit: cover;
+    width: 150px;
+    height: 150px;
   }
-  .box:hover {
-    transform: scale(1.05);
-  }
+
   .footer .container {
-    flex-direction: row;
+    flex-direction: column;
+    text-align: center;
   }
-  .footer_right {
-    width: 50%;
-    display: flex;
-    justify-content: right;
-  }
-  .footer_left {
-    width: 50%;
-    font-size: 18px;
-  }
-  .services_heading {
-    font-size: 36px;
-    font-weight: bold;
-    color: #ffffff;
-    padding: 50px 0;
-    display: flex;
-    justify-content: left;
-  }
-  .experts_heading {
-    font-size: 36px;
-    font-weight: 700;
-    justify-content: left;
-    display: flex;
+
+  .footer_right, .footer_left {
+    width: 100%;
   }
 }
